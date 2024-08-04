@@ -68,8 +68,8 @@ function NavBar() {
         <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
           <div className="flex justify-between mx-[41px] items-center">
             <Link href="/">
-              <div>
-                <img src="/images/logo.png" alt="logo" />
+              <div className="text-primary text-[48px] font-semibold">
+                LOGO
               </div>
             </Link>
 

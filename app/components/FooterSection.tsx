@@ -46,8 +46,8 @@ function FooterSection() {
 
       <div className="px-4 md:px-[70px] flex justify-between w-full flex-col md:flex-row gap-8">
         <div>
-          <div>
-            <img src="/images/footer_logo.png" alt="footer logo" />
+          <div className="text-primary text-[48px] font-semibold">
+            <a>LOGO</a>
           </div>
           <div className="text-customGray mt-[50px]">
             No, 123 just design street

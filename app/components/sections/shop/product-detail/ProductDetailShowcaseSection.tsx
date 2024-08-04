@@ -163,7 +163,7 @@ export default function ProductDetailShowcaseSection({
       <div>
         <p className="text-[42px]">{specificProduct?.title}</p>
         <p className="text-customGray text-[24px] font-medium">
-          Rs. {specificProduct?.price}
+          # {specificProduct?.price}
         </p>
         <div className="flex items-center gap-[22px]">
           <ReactStars count={5} color1="#FFC700" size={24} color2={"#FFC700"} />
